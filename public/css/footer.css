@@ -1,0 +1,29 @@
+footer{
+    padding-top: 40px;
+    background-color: white;
+}
+footer section{
+    margin-bottom: 20px;
+}
+footer .articulo{
+    text-align: center;
+}
+footer .articulo h5{
+    font-size: 16px;
+}
+footer .articulo i{
+    color: var(--celeste);
+    background-color:  white;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+footer .articulo p{
+    font-size: var(--parrafo);
+    color: var(--gris-oscuro);
+    margin: 0 0 10px 15px;
+}
+footer .copy{
+    color: var(--gris-oscuro);
+    font-size: var(--parrafo);
+    margin: 0 0 10px 15px;
+}

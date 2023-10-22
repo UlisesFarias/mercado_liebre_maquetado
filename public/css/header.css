@@ -1,0 +1,41 @@
+body .header{
+    background-color: var(--amarillo);
+    padding: 20px;
+    }
+    body .header .header-top-bar .container-searhc{
+        width: 50%;
+    
+    }
+    .nav-bot-bar{
+        font-size: 12px;
+    }
+    .nav-bot-bar .top-list{
+        margin-bottom: 10px;
+    }
+    .nav-bot-bar .bot-list{
+        margin-bottom: 20px;
+    }
+    
+    .header .logo{
+        width: 50%;
+    }
+    .header .compras{
+        font-weight: 400;
+        text-align: center;
+        font-size: 12px;
+        padding: 25px 0px;
+    }
+    
+    .header .burguer-menu{
+        background-color: var(--azul);
+        color: white;
+        max-width: 40px;
+        padding: 8px ;
+        border-radius: 5px;
+        text-align: center;
+        font-size: 16px;
+        margin: auto;
+        position: relative;
+        left: 50%;
+    }
+     
