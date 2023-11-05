@@ -1,28 +1,32 @@
 .banner{
     width: 100vw;
 }
-
-.main{
-    width: 90%;
-    margin: 0 auto;
-}
-.main h3{
+.main-home h3{
     color: var(--gris-oscuro);
     text-align: center;
     font-size: 20px;
 }
-.main_section article{
+.main-home{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-home article{
     width: 98%;
     margin: auto;
     margin-bottom: 10px;
     
 }
 
-  .main_section_article_div{
+  .card{
      border-top: 1px solid var(--gris-claro);
     padding: 15px;   
  } 
-
+ .descuento{
+    color: var(--verde);
+    font-size: 12px;
+    width: 70%; 
+}
   .icono_carrito{
    display: block;
    font-size: 16px;
@@ -37,12 +41,8 @@
    right: 20px;
    
 }
-.descuento{
-    color: var(--verde);
-    font-size: 12px;
-    width: 70%; 
-}
-.descripcion_articulo{
+
+.descripcion{
 color: var(--gris-oscuro);
 padding: 15px 10px 0 0;
 display: none;
@@ -51,10 +51,10 @@ display: none;
 /* TABLET */
 
 @media (min-width: 768px) {
-    .main_section article{
+    .main-home article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .descripcion_articulo{
+    .descripcion{
         display: block;
     }
 }
@@ -62,10 +62,10 @@ display: none;
 /* DESKTOP */
 
 @media (min-width: 1440px) {
-    .main_section article{
+    .main-home article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
-    .descripcion_articulo{
+    .descripcion{
         display: block;
     }
 }

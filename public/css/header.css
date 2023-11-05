@@ -2,6 +2,7 @@
     background-color: var(--amarillo);
     padding: 20px;
     }
+    
     .burguer-menu{
         background-color: #03264C;
         color: #ffffff;
@@ -53,6 +54,9 @@
         .nav-bot-bar li{
             margin: 0 5px;
         }
+        .shearch-bar input{
+            width: 250px;
+        }
     }
 
     @media (min-width: 1440px){
@@ -82,39 +86,3 @@
             font-size: 19px;
         }
     }
-
-
-   /*  body .header .header-top-bar .container-searhc{
-        width: 50%;
-    
-    }
-    .nav-bot-bar{
-        font-size: 12px;
-    }
-    .nav-bot-bar .top-list{
-        margin-bottom: 10px;
-    }
-    .nav-bot-bar .bot-list{
-        margin-bottom: 20px;
-    }
-    
-    .logo{
-        width: 200px;
-    }
-    .compras{
-        font-weight: 400;
-        text-align: center;
-    
-    }
-    
-    .burguer-menu{
-        background-color: #03264C;
-        color: #ffffff;
-        display: block;
-        max-width: 50px;
-        padding: 15px 0;
-        border-radius: 8px;
-        text-align: center;
-        font-size: 18px;
-        margin: auto;
-    }  */
