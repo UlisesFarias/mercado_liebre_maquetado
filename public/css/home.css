@@ -4,9 +4,9 @@
 .main-home h3{
     color: var(--gris-oscuro);
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
 }
-.main-home{
+main .main-home{
     width: 90%;
     margin: 0 auto;
 }
@@ -14,45 +14,70 @@
 .main-home article{
     width: 98%;
     margin: auto;
-    margin-bottom: 10px;
-    
+    margin-bottom: 10px;   
 }
-
-  .card{
-     border-top: 1px solid var(--gris-claro);
-    padding: 15px;   
- } 
- .descuento{
+.card{
+    border-top: 1px solid var(--gris-oscuro);
+    padding: 15px;
+}
+.descuento{
     color: var(--verde);
     font-size: 12px;
-    width: 70%; 
+    width: 70%;
 }
-  .icono_carrito{
-   display: block;
-   font-size: 16px;
-   padding: 5px;
-   width: 30px;
-   height: 30px;
-   border: 1px solid var(--verde);
-   border-radius: 50%;
-   background-color: #ffffff;
-   position: absolute;
-   color: var(--verde);
-   right: 20px;
-   
+.card{
+position: relative;
 }
-
+.icono_carrito{
+    display: block;
+  font-size: 16px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--verde);
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: -15px;
+  color: var(--verde);
+}
 .descripcion{
 color: var(--gris-oscuro);
 padding: 15px 10px 0 0;
 display: none;
-}  
+}
+.main-home{
+    background-color: var(--gris-claro);
+}
+.info{
+    display: flex;
+}
+.precio{
+    width: 30%;
+}
+.descuento{
+    width: 70%;
+}
 
 /* TABLET */
 
 @media (min-width: 768px) {
+    .main-home h3{
+        width: 100%;
+        text-align: start;
+        padding: 10px 0px 10px 20px;
+    }
     .main-home article{
+        width: 45%;
+        margin-bottom: 30px;
+        cursor: pointer;
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .main-home section{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
     .descripcion{
         display: block;
@@ -63,9 +88,12 @@ display: none;
 
 @media (min-width: 1440px) {
     .main-home article{
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 23%;
     }
-    .descripcion{
-        display: block;
+    .descuento{
+        width: 60%;
+    }
+    .precio{
+        width: 40%;
     }
 }
