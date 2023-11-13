@@ -33,3 +33,23 @@ li{
    padding: 2px 0;
    color: black;
 }
+.box_end{
+   width: 100%;
+   display: flex;
+   justify-content: flex-end;
+   gap: 10px;
+}
+.box_end_login{
+width: 100%;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+.box__card{
+   width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: var(--gris-claro);
+    box-shadow: 5px 5px 5px #c0c0c0;
+    border-radius: 5px;
+}
