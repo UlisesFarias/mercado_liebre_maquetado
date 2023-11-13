@@ -17,8 +17,9 @@ main .main-home{
     margin-bottom: 10px;   
 }
 .card{
-    border-top: 1px solid var(--gris-oscuro);
+    border-top: 1px solid var(--gris-claro);
     padding: 15px;
+    background-color: #fff;
 }
 .descuento{
     color: var(--verde);
