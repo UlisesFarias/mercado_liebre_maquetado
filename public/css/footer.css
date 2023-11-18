@@ -5,19 +5,19 @@ footer{
 footer section{
     margin-bottom: 20px;
 }
-footer .articulo{
+footer .articulo_footer{
     text-align: center;
 }
-footer .articulo h5{
+footer .articulo_footer h5{
     font-size: 16px;
 }
-footer .articulo i{
+footer .articulo_footer i{
     color: var(--celeste);
     background-color:  #ffffff;
     font-size: 2em;
     margin-bottom: 10px;
 }
-footer .articulo p{
+footer .articulo_footer p{
     font-size: var(--parrafo);
     color: var(--gris-oscuro);
     margin: 0 0 10px 15px;

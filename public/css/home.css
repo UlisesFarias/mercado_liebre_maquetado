@@ -73,7 +73,7 @@ display: none;
         width: 45%;
         margin-bottom: 30px;
         cursor: pointer;
-        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        /* box-shadow: 0px 0px 10px rgb(100, 100, 100); */
     }
     .main-home section{
         display: flex;
@@ -96,5 +96,31 @@ display: none;
     }
     .precio{
         width: 40%;
+    }
+    .descripcion{
+        display: block;
+        font-weight: 400;
+        font-size: 16px;
+        opacity: 0;
+    }
+    .articulo:hover{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        transition: linear 0.2s;
+    }
+    .articulo:hover .descripcion{
+        transition: 0.5s;
+        opacity: 100;
+    }
+    .icono_carrito i:hover{
+        animation: girar 0.7s 1;
+    }
+    @keyframes girar{
+        0% {transform: rotate(0.0turn);}
+        50% {transform: rotate();}
+        100% {transform: rotate(-360deg);}
+    }
+    .articulo_footer i:hover{
+        color: var(--amarillo);
+        transition: 0.5s;
     }
 }
